@@ -7,7 +7,7 @@ include-file = $HOME/.config/bspwm/polybar/system
 
 [bar/bar]
 wm-restack = bspwm
-monitor = DP-4
+monitor = DP-1
 bottom = false
 fixed-center = true
 enable-ipc = true
