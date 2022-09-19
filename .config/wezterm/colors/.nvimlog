@@ -1,0 +1,362 @@
+DEBUG 2022-09-18T15:31:56.313 20329 pty_process_save_termios:166: tty_fd=0
+INFO  2022-09-18T15:31:56.324 20329 set_init_2:786: startup runtimepath/packpath value: /Users/bryan/.config/nvim,/etc/xdg/nvim,/Users/bryan/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/bryan/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/bryan/.config/nvim/after
+DEBUG 2022-09-18T15:31:56.326 20329 tui_get_stty_erase:2192: stty/termios:erase=
+DEBUG 2022-09-18T15:31:56.326 20329 tui_tk_ti_getstr:2208: libtermkey:kbs=
+DEBUG 2022-09-18T15:31:56.326 20329 tui_tk_ti_getstr:2213: libtermkey:kdch1=[3~
+DEBUG 2022-09-18T15:31:56.327 20329 tui_tk_ti_getstr:2219: libtermkey:kmous=[M
+DEBUG 2022-09-18T15:31:56.328 20329 UI: option_set
+DEBUG 2022-09-18T15:31:56.329 20329 UI: option_set (+11 times...)
+DEBUG 2022-09-18T15:31:56.329 20329 UI: default_colors_set
+DEBUG 2022-09-18T15:31:56.329 20329 UI: option_set
+DEBUG 2022-09-18T15:31:56.329 20329 UI: option_set (+4 times...)
+DEBUG 2022-09-18T15:31:56.329 20329 UI: default_colors_set
+DEBUG 2022-09-18T15:31:56.329 20329 UI: grid_resize
+DEBUG 2022-09-18T15:31:56.330 20329 UI: grid_resize (+1 times...)
+DEBUG 2022-09-18T15:31:56.330 20329 UI: grid_clear
+DEBUG 2022-09-18T15:31:56.335 20329 handle_background_color:699: bg response: dark
+DEBUG 2022-09-18T15:31:56.390 20329 UI: option_set
+DEBUG 2022-09-18T15:31:56.401 20329 UI: option_set (+2 times...)
+DEBUG 2022-09-18T15:31:56.401 20329 UI: default_colors_set
+DEBUG 2022-09-18T15:31:56.404 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.404 20329 UI: default_colors_set
+DEBUG 2022-09-18T15:31:56.404 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.405 20329 UI: hl_attr_define (+38 times...)
+DEBUG 2022-09-18T15:31:56.405 20329 UI: default_colors_set
+DEBUG 2022-09-18T15:31:56.405 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.482 20329 UI: hl_attr_define (+20 times...)
+DEBUG 2022-09-18T15:31:56.482 20329 UI: option_set
+DEBUG 2022-09-18T15:31:56.483 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.488 20329 UI: hl_attr_define (+82 times...)
+DEBUG 2022-09-18T15:31:56.488 20329 UI: raw_line
+DEBUG 2022-09-18T15:31:56.489 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:31:56.489 20329 UI: win_viewport
+DEBUG 2022-09-18T15:31:56.489 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:31:56.489 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:31:56.489 20329 UI: mode_info_set
+DEBUG 2022-09-18T15:31:56.489 20329 UI: mouse_off
+DEBUG 2022-09-18T15:31:56.489 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.500 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.559 20329 process_spawn:123: new: pid=20339 argv=[/bin/bash]
+INFO  2022-09-18T15:31:56.560 20329 channel_create_event:210: new channel 3 (/Users/bryan/.local/share/nvim/site/pack/packer/start/packer.nvim/plugin/packer_compiled.lua:0) : {"id": 3, "argv": ["/bin/bash", "-c", "netstat -u|grep --color=never \"nvim.*/0\""], "mode": "bytes", "stream": "job"}
+DEBUG 2022-09-18T15:31:56.569 20329 UI: hl_attr_define (+26 times...)
+DEBUG 2022-09-18T15:31:56.569 20329 UI: raw_line
+DEBUG 2022-09-18T15:31:56.570 20329 UI: raw_line (+3 times...)
+DEBUG 2022-09-18T15:31:56.570 20329 UI: grid_resize
+DEBUG 2022-09-18T15:31:56.570 20329 UI: msg_set_pos
+DEBUG 2022-09-18T15:31:56.570 20329 UI: raw_line
+DEBUG 2022-09-18T15:31:56.572 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:31:56.572 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.574 20329 UI: hl_attr_define (+6 times...)
+DEBUG 2022-09-18T15:31:56.575 20329 UI: raw_line
+DEBUG 2022-09-18T15:31:56.588 20329 UI: raw_line (+3 times...)
+DEBUG 2022-09-18T15:31:56.588 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.611 20329 read_cb:119: closing Stream (0x7ff6a380e7c8): EOF (end of file)
+INFO  2022-09-18T15:31:56.611 20329 on_process_exit:400: exited: pid=20339 status=0 stoptime=0
+DEBUG 2022-09-18T15:31:56.629 20329 read_cb:119: closing Stream (0x7ff6a380e618): EOF (end of file)
+INFO  2022-09-18T15:31:56.882 20329 main:573: starting main loop
+DEBUG 2022-09-18T15:31:56.882 20329 UI: hl_attr_define (+44 times...)
+DEBUG 2022-09-18T15:31:56.883 20329 UI: win_viewport
+DEBUG 2022-09-18T15:31:56.883 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:31:56.883 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:31:56.883 20329 UI: mode_info_set
+DEBUG 2022-09-18T15:31:56.883 20329 UI: mode_change
+DEBUG 2022-09-18T15:31:56.884 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.884 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.884 20329 UI: raw_line
+DEBUG 2022-09-18T15:31:56.886 20329 UI: raw_line (+163 times...)
+DEBUG 2022-09-18T15:31:56.887 20329 UI: win_viewport
+DEBUG 2022-09-18T15:31:56.887 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.887 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.887 20329 UI: raw_line
+DEBUG 2022-09-18T15:31:56.887 20329 UI: raw_line (+9 times...)
+DEBUG 2022-09-18T15:31:56.888 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:31:56.888 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:31:56.888 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.888 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.888 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.888 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.888 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.888 20329 UI: flush (+3 times...)
+DEBUG 2022-09-18T15:31:56.889 20329 UI: win_viewport
+DEBUG 2022-09-18T15:31:56.889 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:31:56.889 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:31:56.889 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.889 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.889 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:56.890 20329 stream_close:107: closing Stream: 0x7ff6a380e468
+DEBUG 2022-09-18T15:31:56.890 20329 stream_close:107: closing Stream: 0x7ff6a380e618
+DEBUG 2022-09-18T15:31:56.890 20329 stream_close:107: closing Stream: 0x7ff6a380e7c8
+DEBUG 2022-09-18T15:31:56.895 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.899 20329 UI: hl_attr_define (+28 times...)
+DEBUG 2022-09-18T15:31:56.899 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.899 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.899 20329 UI: win_viewport
+DEBUG 2022-09-18T15:31:56.900 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.900 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.900 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:31:56.903 20329 UI: hl_attr_define (+2 times...)
+DEBUG 2022-09-18T15:31:56.903 20329 UI: raw_line
+DEBUG 2022-09-18T15:31:56.903 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:31:56.903 20329 UI: flush
+DEBUG 2022-09-18T15:31:56.904 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.906 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.906 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:56.906 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:57.007 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:57.007 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.016 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.016 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.016 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:57.117 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:57.154 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:57.155 20329 process_spawn:123: new: pid=20364 argv=[/bin/bash]
+DEBUG 2022-09-18T15:31:57.155 20329 UI: flush (+7 times...)
+DEBUG 2022-09-18T15:31:57.156 20329 UI: busy_start
+DEBUG 2022-09-18T15:31:57.156 20329 UI: flush
+DEBUG 2022-09-18T15:31:57.179 20329 read_cb:119: closing Stream (0x7ff7ba99b190): EOF (end of file)
+DEBUG 2022-09-18T15:31:57.179 20329 read_cb:119: closing Stream (0x7ff7ba99afe0): EOF (end of file)
+INFO  2022-09-18T15:31:57.179 20329 on_process_exit:400: exited: pid=20364 status=128 stoptime=0
+DEBUG 2022-09-18T15:31:57.179 20329 stream_close:107: closing Stream: 0x7ff7ba99afe0
+DEBUG 2022-09-18T15:31:57.179 20329 stream_close:107: closing Stream: 0x7ff7ba99b190
+DEBUG 2022-09-18T15:31:57.179 20329 UI: busy_stop
+DEBUG 2022-09-18T15:31:57.180 20329 process_spawn:123: new: pid=20366 argv=[/bin/bash]
+DEBUG 2022-09-18T15:31:57.180 20329 UI: busy_start
+DEBUG 2022-09-18T15:31:57.180 20329 UI: flush
+DEBUG 2022-09-18T15:31:57.202 20329 read_cb:119: closing Stream (0x7ff7ba99b190): EOF (end of file)
+DEBUG 2022-09-18T15:31:57.203 20329 read_cb:119: closing Stream (0x7ff7ba99afe0): EOF (end of file)
+INFO  2022-09-18T15:31:57.203 20329 on_process_exit:400: exited: pid=20366 status=1 stoptime=0
+DEBUG 2022-09-18T15:31:57.203 20329 stream_close:107: closing Stream: 0x7ff7ba99afe0
+DEBUG 2022-09-18T15:31:57.203 20329 stream_close:107: closing Stream: 0x7ff7ba99b190
+DEBUG 2022-09-18T15:31:57.203 20329 UI: busy_stop
+DEBUG 2022-09-18T15:31:57.204 20329 UI: flush
+DEBUG 2022-09-18T15:31:57.204 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.207 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.207 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.207 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:57.207 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:57.208 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.211 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.212 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:57.212 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:57.314 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:58.397 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:58.398 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.401 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.401 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.401 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:58.401 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.404 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.404 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.404 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:58.505 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:58.734 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:58.734 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.738 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.738 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.739 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:58.839 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:58.901 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:58.901 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.905 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.905 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:58.906 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:59.007 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:59.400 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:59.401 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.410 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.410 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.410 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:59.411 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.413 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.414 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.414 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:31:59.414 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.417 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.417 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:31:59.418 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:31:59.518 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:00.759 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:00.762 20329 process_spawn:123: new: pid=20378 argv=[/bin/bash]
+DEBUG 2022-09-18T15:32:00.763 20329 UI: flush (+32 times...)
+DEBUG 2022-09-18T15:32:00.763 20329 UI: busy_start
+DEBUG 2022-09-18T15:32:00.763 20329 UI: flush
+DEBUG 2022-09-18T15:32:00.793 20329 read_cb:119: closing Stream (0x7ff7ba99b190): EOF (end of file)
+DEBUG 2022-09-18T15:32:00.794 20329 read_cb:119: closing Stream (0x7ff7ba99afe0): EOF (end of file)
+INFO  2022-09-18T15:32:00.794 20329 on_process_exit:400: exited: pid=20378 status=128 stoptime=0
+DEBUG 2022-09-18T15:32:00.794 20329 stream_close:107: closing Stream: 0x7ff7ba99afe0
+DEBUG 2022-09-18T15:32:00.794 20329 stream_close:107: closing Stream: 0x7ff7ba99b190
+DEBUG 2022-09-18T15:32:00.794 20329 UI: busy_stop
+DEBUG 2022-09-18T15:32:00.795 20329 process_spawn:123: new: pid=20380 argv=[/bin/bash]
+DEBUG 2022-09-18T15:32:00.795 20329 UI: busy_start
+DEBUG 2022-09-18T15:32:00.795 20329 UI: flush
+DEBUG 2022-09-18T15:32:00.819 20329 read_cb:119: closing Stream (0x7ff7ba99b190): EOF (end of file)
+DEBUG 2022-09-18T15:32:00.819 20329 read_cb:119: closing Stream (0x7ff7ba99afe0): EOF (end of file)
+INFO  2022-09-18T15:32:00.820 20329 on_process_exit:400: exited: pid=20380 status=1 stoptime=0
+DEBUG 2022-09-18T15:32:00.820 20329 stream_close:107: closing Stream: 0x7ff7ba99afe0
+DEBUG 2022-09-18T15:32:00.820 20329 stream_close:107: closing Stream: 0x7ff7ba99b190
+DEBUG 2022-09-18T15:32:00.820 20329 UI: busy_stop
+DEBUG 2022-09-18T15:32:00.820 20329 UI: flush
+DEBUG 2022-09-18T15:32:00.820 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:00.824 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:00.824 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:00.824 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:00.825 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:00.825 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:00.827 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:00.828 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:00.828 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:00.928 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:02.199 20329 log_key:1024: input: <p>
+DEBUG 2022-09-18T15:32:02.199 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.205 20329 UI: flush (+9 times...)
+DEBUG 2022-09-18T15:32:02.205 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:02.205 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:02.205 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.206 20329 process_spawn:123: new: pid=20382 argv=[/usr/bin/pbpaste]
+DEBUG 2022-09-18T15:32:02.206 20329 UI: busy_start
+DEBUG 2022-09-18T15:32:02.206 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.228 20329 read_cb:119: closing Stream (0x7ff7ba9957d0): EOF (end of file)
+DEBUG 2022-09-18T15:32:02.228 20329 read_cb:119: closing Stream (0x7ff7ba995620): EOF (end of file)
+INFO  2022-09-18T15:32:02.229 20329 on_process_exit:400: exited: pid=20382 status=0 stoptime=0
+DEBUG 2022-09-18T15:32:02.229 20329 stream_close:107: closing Stream: 0x7ff7ba995620
+DEBUG 2022-09-18T15:32:02.229 20329 stream_close:107: closing Stream: 0x7ff7ba9957d0
+DEBUG 2022-09-18T15:32:02.229 20329 UI: busy_stop
+DEBUG 2022-09-18T15:32:02.230 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.230 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.231 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:02.234 20329 UI: raw_line (+3 times...)
+DEBUG 2022-09-18T15:32:02.235 20329 UI: win_viewport
+DEBUG 2022-09-18T15:32:02.235 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:32:02.235 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:32:02.235 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.235 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.235 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:02.236 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:02.236 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:32:02.236 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:02.237 20329 UI: raw_line (+23 times...)
+DEBUG 2022-09-18T15:32:02.237 20329 UI: win_viewport
+DEBUG 2022-09-18T15:32:02.238 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.238 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.240 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:02.240 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:02.240 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.240 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.240 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.240 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.242 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.243 20329 UI: flush (+3 times...)
+DEBUG 2022-09-18T15:32:02.243 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:32:02.243 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:32:02.243 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.243 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.243 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:02.245 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.246 20329 UI: flush (+1 times...)
+DEBUG 2022-09-18T15:32:02.246 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:02.246 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:02.247 20329 UI: win_viewport
+DEBUG 2022-09-18T15:32:02.247 20329 UI: flush
+DEBUG 2022-09-18T15:32:02.247 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.247 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.249 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.249 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.249 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:02.332 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:02.333 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.337 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.338 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.338 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:02.338 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.340 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.340 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.340 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:02.441 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:02.441 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.445 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.445 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.446 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:02.532 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:02.532 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.535 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.535 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:02.535 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:02.636 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.032 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.033 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.040 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.040 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.040 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.041 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.043 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.043 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.044 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.144 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.176 20329 log_key:1024: input: <:>
+DEBUG 2022-09-18T15:32:03.177 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.177 20329 UI: flush (+28 times...)
+DEBUG 2022-09-18T15:32:03.177 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:03.177 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:03.177 20329 UI: flush
+DEBUG 2022-09-18T15:32:03.177 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:03.177 20329 UI: raw_line (+5 times...)
+DEBUG 2022-09-18T15:32:03.178 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:32:03.178 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:32:03.178 20329 UI: mode_change
+DEBUG 2022-09-18T15:32:03.178 20329 UI: flush
+DEBUG 2022-09-18T15:32:03.178 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.178 20329 UI: hl_attr_define
+DEBUG 2022-09-18T15:32:03.180 20329 UI: hl_attr_define (+1 times...)
+DEBUG 2022-09-18T15:32:03.180 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:03.180 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:03.180 20329 UI: flush
+DEBUG 2022-09-18T15:32:03.181 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.181 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.181 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.181 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.281 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.281 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.283 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.384 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.417 20329 log_key:1024: input: <w>
+DEBUG 2022-09-18T15:32:03.417 20329 UI: flush (+5 times...)
+DEBUG 2022-09-18T15:32:03.417 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:03.417 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:03.417 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:32:03.418 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:32:03.418 20329 UI: flush
+DEBUG 2022-09-18T15:32:03.418 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.418 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.418 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.419 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.419 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.420 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.420 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.421 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.504 20329 log_key:1024: input: <q>
+DEBUG 2022-09-18T15:32:03.504 20329 UI: flush (+6 times...)
+DEBUG 2022-09-18T15:32:03.505 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:03.505 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:03.505 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:32:03.505 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:32:03.505 20329 UI: flush
+DEBUG 2022-09-18T15:32:03.505 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.506 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.506 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.506 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.506 20329 log_key:1024: input: K_EVENT
+DEBUG 2022-09-18T15:32:03.507 20329 inbuf_poll:451: blocking... events_enabled=0 events_pending=0
+DEBUG 2022-09-18T15:32:03.507 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.607 20329 inbuf_poll:451: blocking... events_enabled=1 events_pending=0
+DEBUG 2022-09-18T15:32:03.857 20329 log_key:1024: input: <CR>
+DEBUG 2022-09-18T15:32:03.857 20329 UI: flush (+5 times...)
+DEBUG 2022-09-18T15:32:03.859 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:32:03.859 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:32:03.859 20329 UI: flush
+DEBUG 2022-09-18T15:32:03.859 20329 UI: raw_line
+DEBUG 2022-09-18T15:32:03.859 20329 UI: raw_line (+1 times...)
+DEBUG 2022-09-18T15:32:03.860 20329 UI: grid_cursor_goto
+DEBUG 2022-09-18T15:32:03.860 20329 UI: grid_cursor_goto (+1 times...)
+DEBUG 2022-09-18T15:32:03.860 20329 UI: mode_change
+DEBUG 2022-09-18T15:32:03.860 20329 UI: flush
+DEBUG 2022-09-18T15:32:03.860 20329 UI: raw_line
